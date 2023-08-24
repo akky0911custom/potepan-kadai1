@@ -15,6 +15,10 @@ a {
   padding-bottom: 28px;
 }
 
+.top-wrapper-image {
+  display: none;
+}
+
 .top-wrapper-container {
   max-width: 1140px;
   padding-left: 50px;
@@ -174,6 +178,6 @@ header {
   margin-bottom: 24px;
 }
 
-.about-wrapper-title img {
-    width: 158px
+.about-wrapper-reskilling-logo img {
+  width: 158px;
 }

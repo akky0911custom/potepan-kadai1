@@ -1,0 +1,151 @@
+@media screen and (max-width: 1090px) {
+    header {
+        background-color:#fff;
+        z-index: 10;
+    }
+    
+    .header-list {
+        display: none;
+    }
+    
+    .header-nav-icon {
+        cursor:pointer;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 21px;
+        z-index: 100;
+    }
+    
+    .header-nav-icon-line:first-child {
+        top:0
+    }
+    
+    .header-nav-icon-line {
+        position:absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #333;
+        transform: translate(0,-50%);
+        border-radius: 10px;
+        transition: top .2s,transform .2s
+    }
+    
+    .header-nav-icon-line:last-child {
+        top:100%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .about-wrapper-container {
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .about-wrapper-video {
+      margin-bottom:16px;
+      width: 75%;
+  }
+
+  .about-wrapper-title {
+      margin-left:0;
+      width: 75%;
+  }
+
+  .about-wrapper-title p {
+      margin-bottom:32px;
+  }
+  
+  .about-wrapper-reskilling-logo {
+      margin:auto;
+  }
+  
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    .top-wrapper {
+        background-image: none;
+        padding-top: 0px;
+        padding-bottom: 35px;
+    }
+    
+    .top-wrapper-image {
+      display: block;
+    }
+    
+    .top-wrapper-container {
+        max-width:none;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top:-45vw;
+    }
+    
+    .top-wrapper-contents {
+        margin-bottom:20px;
+        width: 100%;
+    }
+    
+    .top-wrapper-contents-heading {
+        font-size:25px;
+        line-height: 36px;
+        margin-left: calc(((100vw - 100%)/2)*-1);
+        margin-right: calc(((100vw - 100%)/2)*-1);
+    }
+    
+    .top-wrapper-contents-images {
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+    .top-wrapper-contents-images img {
+        width:27.5%;
+    }
+    
+    .top-wrapper-contents-btn {
+        transition:opacity .2s
+    }
+    
+    .top-wrapper-contents-btn:hover {
+        opacity: .8
+    }
+    
+    .about-wrapper {
+        padding:30px 0
+  }
+  
+  .about-wrapper-container {
+      max-width:none;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .about-wrapper-video {
+      width:100%;
+  }
+    
+.about-wrapper-title {
+        margin-bottom:0;
+        width: 100%;
+    }
+    .about-wrapper-title h2 {
+        font-size:33px;
+        line-height: 48px;
+        text-align: center;
+    }
+    
+    .about-wrapper-title h2 span {
+        letter-spacing:1px
+    }
+    .about-wrapper-title p {
+        font-size:16px;
+        line-height: 21px
+    }
+}
